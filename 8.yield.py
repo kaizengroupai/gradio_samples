@@ -12,7 +12,7 @@ def fake_diffusion(steps):
     yield image
 
 
-demo = gr.Interface(fake_diffusion, inputs=gr.Slider(1, 10, 3), outputs="image")
+demo = gr.Interface(fake_diffusion, inputs=gr.Slider(1, 10, 3,step=1), outputs="image")
 
 # define queue - required for generators
 demo.queue()
