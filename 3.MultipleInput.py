@@ -8,7 +8,7 @@ def greet(name, is_morning, temperature, color):
 
 demo = gr.Interface(
     fn=greet,
-    inputs=["text", "checkbox", gr.Slider(0, 100), gr.ColorPicker()],
+    inputs=["text", "checkbox", gr.Slider(0, 100,step=1), gr.ColorPicker()],
     outputs=["text", "number"],
 )
 demo.launch()
