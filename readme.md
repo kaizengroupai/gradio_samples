@@ -1,7 +1,7 @@
 <body style="background-color=:#000">
 
 # What  is <span style="color:yellow;">Gradio</span>?
-<img src="./NVI4Jgdrd.avif" alt="Alt Text" width="300">
+<img src="images/NVI4Jgdrd.avif" alt="Alt Text" width="300">
 
 ### <span style="color:yellow;">"</span> Gradio is an open-source Python library that is used to build machine learning and data science demos and web applications. <span style="color:yellow;">"</span>
 
@@ -46,7 +46,7 @@ We extend our gratitude to the Gradio team and the broader open-source community
 
 Happy exploring and creating with Gradio!
 
-<img src="./meta-image.png" alt="Alt Text" width="300">
+<img src="images/meta-image.png" alt="Alt Text" width="300">
 
 
 </body>
