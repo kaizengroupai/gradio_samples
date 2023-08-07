@@ -58,4 +58,4 @@ with gr.Blocks() as demo:
     img_output.select(select_section, None, selected_section)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_port=8080)
